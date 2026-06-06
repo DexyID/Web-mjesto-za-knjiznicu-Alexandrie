@@ -1,0 +1,116 @@
+.calendar-card {
+    background: #fff;
+    border: 1px solid #e0d8c8;
+    border-radius: 8px;
+    padding: 1.25rem;
+    max-width: 420px;
+}
+
+.calendar-header {
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.cal-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+}
+
+.cal-table th {
+    padding: 4px;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.cal-table td {
+    padding: 6px 4px;
+}
+
+.cal-table td.today {
+    background: #1b3a5c;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.cal-table td.has-event {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+.dogadaj-card {
+    border: 1px solid #e0d8c8;
+    border-radius: 6px;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.dogadaj-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.dogadaj-datum-box {
+    background: #1b3a5c;
+    color: #fff;
+    border-radius: 4px;
+    min-width: 52px;
+    text-align: center;
+    padding: 8px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.dogadaj-dan {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.dogadaj-mj {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.dogadaj-kategorija {
+    font-family: 'Cinzel', serif;
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.kategorija-radionica   { color: #c0392b; }
+.kategorija-predavanje  { color: #2980b9; }
+.kategorija-izlozba     { color: #8e44ad; }
+.kategorija-okrugli     { color: #27ae60; }
+
+.dogadaj-naslov {
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.dogadaj-meta {
+    font-size: 0.78rem;
+    color: #888;
+    margin: 0;
+}
+
+.detalji-link {
+    font-size: 0.78rem;
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+    align-self: center;
+}
