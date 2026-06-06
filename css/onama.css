@@ -1,0 +1,73 @@
+.divider {
+    border-color: var(--gold);
+    opacity: 0.4;
+    width: 60px;
+    margin: 1.5rem auto;
+}
+
+.o-nama-tekst {
+    font-family: 'Cinzel', serif;
+    font-size: 0.82rem;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.tim-section {
+    background: #d9c9a8;
+}
+
+.tim-podnaslov {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.tim-card {
+    background: transparent;
+}
+
+.tim-inicijali {
+    background: #8b4a2f;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px 6px 0 0;
+}
+
+.tim-ime {
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    margin-bottom: 4px;
+}
+
+.tim-kontakt {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+}
+
+.info-section {
+    background: var(--cream);
+}
+
+.info-naslov {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-tekst {
+    font-size: 0.88rem;
+    color: #555;
+    line-height: 1.8;
+}

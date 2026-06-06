@@ -1,0 +1,100 @@
+.istaknuta-kartica {
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--cream);
+    transition: transform 0.2s;
+}
+
+.istaknuta-kartica:hover {
+    transform: translateY(-4px);
+}
+
+.istaknuta-slika {
+    height: 200px;
+    object-fit: cover;
+    background: #2c3e50;
+}
+
+.istaknuta-naslov {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 0.4rem;
+}
+
+.istaknuta-tekst {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+.novost-kategorija {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.kategorija-zbirke      { color: #c0392b; }
+.kategorija-dogadaji    { color: #2980b9; }
+.kategorija-medicina    { color: #27ae60; }
+.kategorija-izlozba     { color: #8e44ad; }
+.kategorija-predavanje  { color: #d35400; }
+.kategorija-istrazivanje{ color: #16a085; }
+
+.novost-datum {
+    font-size: 0.78rem;
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+}
+
+.novosti-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.lista-red {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e0d8c8;
+    transition: background 0.15s;
+}
+
+.lista-red:hover {
+    background: #f9f5ed;
+}
+
+.lista-slika {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #c8b89a;
+    flex-shrink: 0;
+}
+
+.lista-info {
+    flex: 1;
+}
+
+.lista-naslov {
+    font-family: 'Cinzel', serif;
+    font-size: 0.88rem;
+    color: #222;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.lista-datum {
+    font-size: 0.78rem;
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
