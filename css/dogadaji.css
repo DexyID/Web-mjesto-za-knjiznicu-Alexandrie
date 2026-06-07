@@ -4,6 +4,7 @@
     border-radius: 8px;
     padding: 1.25rem;
     max-width: 420px;
+    margin: 0 auto;
 }
 
 .calendar-header {
