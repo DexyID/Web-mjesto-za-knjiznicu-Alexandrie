@@ -48,9 +48,10 @@
 }
 
 .chip.active {
-    background: var(--primary);
-    color: #fff;
-    border-color: var(--primary);
+    background: transparent;
+    color: var(--navy);
+    border-color: var(--navy);
+    border-width: 2px;
 }
 
 .knjiga-card {
