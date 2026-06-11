@@ -1,0 +1,30 @@
+.novost-slika {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.novost-datum {
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: var(--gold);
+}
+
+.novost-naslov {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: var(--text);
+    line-height: 1.3;
+}
+
+.novost-tijelo {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.9;
+}
+
+.novost-tijelo p + p {
+    margin-top: 1rem;
+}

@@ -49,6 +49,10 @@ h1, h2, h3, h4, .font-cinzel {
     transition: color 0.2s;
 }
 
+.navbar-collapse .navbar-nav {
+    text-align: right;
+}
+
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
     color: var(--gold) !important;
@@ -297,6 +301,10 @@ h1, h2, h3, h4, .font-cinzel {
     font-size: 0.88rem;
     color: #555;
     line-height: 1.7;
+}
+
+.card-footer {
+    text-align: center;
 }
 
 .container-novosti {

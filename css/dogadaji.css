@@ -12,6 +12,29 @@
     font-size: 0.9rem;
     letter-spacing: 1px;
     margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--navy);
+}
+
+.cal-nav {
+    background: none;
+    border: none;
+    color: var(--navy);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cal-no-event {
+    margin-top: 1rem;
+    border: 1px solid #e0d8c8;
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 0.82rem;
+    color: #aaa;
+    font-style: italic;
+    text-align: center;
 }
 
 .cal-table {

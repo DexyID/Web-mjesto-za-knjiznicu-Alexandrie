@@ -1,0 +1,131 @@
+.breadcrumb-detalji {
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-detalji .breadcrumb-item a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.breadcrumb-detalji .breadcrumb-item a:hover {
+    color: var(--gold);
+}
+
+.breadcrumb-detalji .breadcrumb-item.active {
+    color: #aaa;
+}
+
+.breadcrumb-detalji .breadcrumb-item + .breadcrumb-item::before {
+    color: #aaa;
+}
+
+.knjiga-naslovnica {
+    width: 220px;
+    border-radius: 4px;
+    box-shadow: 2px 6px 16px rgba(0,0,0,0.15);
+}
+
+.kategorija-tag {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    color: var(--terracota);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.knjiga-naslov {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: var(--text);
+    margin-bottom: 0.2rem;
+}
+
+.knjiga-autor {
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.dostupno-badge {
+    border: 1px solid #b2dfb2;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 0.78rem;
+    color: #4caf50;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
+
+.dostupno-dot {
+    width: 7px;
+    height: 7px;
+    background: #4caf50;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.detalji-section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.detalji-opis {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.9;
+}
+
+.detalji-divider {
+    border-color: #e0d8c8;
+    margin: 2rem 0;
+}
+
+.meta-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.meta-value {
+    font-size: 0.9rem;
+    color: var(--text);
+}
+
+.clan-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--terracota);
+    color: var(--terracota);
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+}
+
+.trajanje-btn {
+    background: transparent;
+    border: 1px solid #c8bfb0;
+    border-radius: 20px;
+    padding: 0.4rem 1.2rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--text);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.trajanje-btn.active,
+.trajanje-btn:hover {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+}

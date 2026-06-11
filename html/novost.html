@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alexandria – Novost</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/global.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/novost.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                    <img src="../slike/logo.png" alt="Logo" class="navbar-logo">
+                    ALEXANDRIA
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <i class="bi bi-list text-white fs-4"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Početna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./katalog.html">Katalog</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./novosti.html">Novosti</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./dogadaji.html">Događaji</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
+                    </ul>
+                    <div class="dropdown ms-3 d-none d-lg-block">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="./prijava.html">Prijava</a></li>
+                            <li><a class="dropdown-item" href="./prijava.html?tab=registracija">Registracija</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-4" style="max-width: 760px;">
+
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb novost-breadcrumb">
+                    <li class="breadcrumb-item"><a href="novosti.html">Novosti</a></li>
+                    <li class="breadcrumb-item active">Nova donacija knjiga</li>
+                </ol>
+            </nav>
+
+            <p class="novost-datum mb-2">1. lipnja 2026.</p>
+            <h1 class="novost-naslov mb-4">Nova donacija knjiga proširuje fond knjižnice</h1>
+
+            <img src="https://picsum.photos/seed/novost1/760/420" alt="Naslovnica novosti" class="novost-slika mb-4">
+
+            <div class="novost-tijelo">
+                <p>
+                    Knjižnica Alexandria primila je značajnu donaciju od više od petsto knjiga, zahvaljujući zakladi Matica i grupi lokalnih donatora. Donacija obuhvaća naslove iz područja filozofije, povijesti, prirodnih znanosti te suvremene hrvatske i svjetske književnosti.
+                </p>
+                <p>
+                    Ravnateljica knjižnice istaknula je da se radi o jednoj od najvećih pojedinačnih donacija u posljednjem desetljeću te da će mnogi naslovi popuniti praznine u fondu koje su čitatelji dugo primjećivali. Posebno se ističe zbirka enciklopedija i referentnih priručnika koji će biti dostupni u čitaonici.
+                </p>
+                <p>
+                    Knjige su već stigle u knjižnicu i prolaze kroz stručnu obradu. Očekuje se da će većina naslova biti dostupna u katalogu do kraja lipnja. Čitatelji mogu pratiti novosti o novim naslovima na stranici kataloga ili se prijaviti za obavijesti putem korisničkog računa.
+                </p>
+                <p>
+                    Knjižnica poziva sve zainteresirane građane, tvrtke i ustanove da razmisle o mogućnosti donacije knjiga te da na taj način doprinesu obogaćivanju zajedničkog fonda znanja dostupnog svima.
+                </p>
+            </div>
+
+            <hr style="border-color:#e0d8c8;margin:2.5rem 0;">
+
+            <a href="novosti.html" class="btn-katalog">← Sve novosti</a>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <footer class="text-center">
+            <div class="container">
+                <div class="mb-2">
+                    <i class="bi bi-arrow-up-circle fs-4" style="color:var(--gold);cursor:pointer;" onclick="window.scrollTo({top:0,behavior:'smooth'})"></i>
+                </div>
+                <p class="footer-logo mb-1">© 2026 · Knjižnica Alexandria</p>
+                <p class="footer-links mb-0">
+                    <a href="urednistvo.html">Uredništvo</a>
+                    &nbsp;·&nbsp;
+                    <a href="pravila-privatnosti.html">Pravila privatnosti</a>
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
