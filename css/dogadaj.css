@@ -1,0 +1,94 @@
+.dogadaj-breadcrumb {
+    font-family: 'Cinzel', serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.dogadaj-breadcrumb .breadcrumb-item a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.dogadaj-breadcrumb .breadcrumb-item a:hover {
+    color: var(--gold);
+}
+
+.dogadaj-breadcrumb .breadcrumb-item.active,
+.dogadaj-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    color: #aaa;
+}
+
+.dogadaj-datum-box {
+    background: var(--navy);
+    color: #fff;
+    border-radius: 6px;
+    min-width: 58px;
+    padding: 10px 8px;
+    flex-shrink: 0;
+}
+
+.dogadaj-dan {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.dogadaj-mj {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.dogadaj-naslov-glavni {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    color: var(--text);
+}
+
+.dogadaj-meta-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.dogadaj-meta-value {
+    font-size: 0.9rem;
+    color: var(--text);
+}
+
+.dogadaj-section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.dogadaj-opis {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.9;
+}
+
+.dogadaj-opis p + p {
+    margin-top: 1rem;
+}
+
+.dogadaj-divider {
+    border-color: #e0d8c8;
+    margin: 2rem 0;
+}
+
+.clan-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--terracota);
+    color: var(--terracota);
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}

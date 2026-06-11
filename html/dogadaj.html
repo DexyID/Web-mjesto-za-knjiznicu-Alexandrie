@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alexandria – Radionica</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/global.css">
+        <link rel="stylesheet" href="../css/dogadaj.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                    <img src="../slike/logo.png" alt="Logo" class="navbar-logo">
+                    ALEXANDRIA
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <i class="bi bi-list text-white fs-4"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Početna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./katalog.html">Katalog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./novosti.html">Novosti</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./dogadaji.html">Radionice</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
+                    </ul>
+                    <div class="dropdown ms-3 d-none d-lg-block">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="./prijava.html">Prijava</a></li>
+                            <li><a class="dropdown-item" href="./prijava.html?tab=registracija">Registracija</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-4" style="max-width: 760px;">
+
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb dogadaj-breadcrumb">
+                    <li class="breadcrumb-item"><a href="dogadaji.html">Radionice</a></li>
+                    <li class="breadcrumb-item active">Večer poezije</li>
+                </ol>
+            </nav>
+
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="dogadaj-datum-box d-flex flex-column align-items-center justify-content-center">
+                    <span class="dogadaj-dan">17</span>
+                    <span class="dogadaj-mj">LIP</span>
+                </div>
+                <div>
+                    <span class="dogadaj-kategorija kategorija-predavanje d-block mb-1">Predavanje</span>
+                    <h1 class="dogadaj-naslov-glavni mb-0">Večer poezije</h1>
+                </div>
+            </div>
+
+            <img src="https://picsum.photos/seed/dogadaj1/760/380" alt="Večer poezije" class="w-100 rounded mb-4" style="max-height:380px;object-fit:cover;">
+
+            <div class="row g-3 mb-4">
+                <div class="col-6 col-md-3">
+                    <p class="dogadaj-meta-label">Datum</p>
+                    <p class="dogadaj-meta-value">17. lipnja 2026.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <p class="dogadaj-meta-label">Vrijeme</p>
+                    <p class="dogadaj-meta-value">19:00 – 21:00</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <p class="dogadaj-meta-label">Mjesto</p>
+                    <p class="dogadaj-meta-value">Čitaonica, Dvorana 1</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <p class="dogadaj-meta-label">Ulaz</p>
+                    <p class="dogadaj-meta-value">Slobodan</p>
+                </div>
+            </div>
+
+            <hr class="dogadaj-divider">
+
+            <h2 class="dogadaj-section-title">O radionici</h2>
+            <div class="dogadaj-opis">
+                <p>
+                    Pridružite nam se na posebnoj večeri posvećenoj suvremenoj hrvatskoj i svjetskoj poeziji. Gostujući pjesnici čitat će vlastite tekstove, a publika će imati priliku sudjelovati u razgovoru o pjesničkim temama i inspiraciji.
+                </p>
+                <p>
+                    Večer je organizirana u suradnji s Hrvatskim društvom pisaca i namijenjena je svim ljubiteljima književnosti, bez obzira na dob i iskustvo s poezijom. Dolazak nije potrebno najavljuiivati — vrata čitaonice otvaraju se pola sata prije početka.
+                </p>
+                <p>
+                    Nakon programa predviđeno je neformalno druženje uz osvježenje u foajeu knjižnice.
+                </p>
+            </div>
+
+            <hr class="dogadaj-divider">
+
+            <h2 class="dogadaj-section-title">Rezervacija mjesta</h2>
+            <p class="mb-3" style="font-size:0.88rem;color:#555;">Prijavljeni ste kao član knjižnice. Potvrdite dolazak na radionicu.</p>
+
+            <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-4" style="border-color:#e0d8c8!important;">
+                <div class="clan-avatar d-flex align-items-center justify-content-center flex-shrink-0">JV</div>
+                <div>
+                    <p class="mb-0" style="font-family:'Cinzel',serif;font-size:0.9rem;">Jan Vrabec</p>
+                    <p class="mb-0" style="font-size:0.75rem;color:#aaa;">Iskaznica LIB-11677</p>
+                </div>
+            </div>
+
+            <a href="#" class="btn-katalog d-block text-center mb-5" id="btnRezervacija">Potvrdi dolazak</a>
+
+        </div>
+
+        <div class="modal fade" id="modalRezervacija" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content text-center p-4" style="background:var(--cream);">
+                    <i class="bi bi-check-circle" style="font-size:2.5rem;color:#4caf50;"></i>
+                    <p style="font-family:'Cinzel',serif;font-size:1.1rem;letter-spacing:2px;margin:1rem 0 0.5rem;">Uspješna rezervacija</p>
+                    <p style="font-size:0.85rem;color:#555;margin-bottom:1.5rem;">Vaš dolazak je zabilježen. Vidimo se na radionici!</p>
+                    <button class="btn-katalog" style="padding:10px 32px;" data-bs-dismiss="modal">U redu</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script>
+            document.getElementById('btnRezervacija').addEventListener('click', e => {
+                e.preventDefault();
+                new bootstrap.Modal(document.getElementById('modalRezervacija')).show();
+            });
+        </script>
+
+        <footer class="text-center">
+            <div class="container">
+                <div class="mb-2">
+                    <i class="bi bi-arrow-up-circle fs-4" style="color:var(--gold);cursor:pointer;" onclick="window.scrollTo({top:0,behavior:'smooth'})"></i>
+                </div>
+                <p class="footer-logo mb-1">© 2026 · Knjižnica Alexandria</p>
+                <p class="footer-links mb-0">
+                    <a href="urednistvo.html">Uredništvo</a>
+                    &nbsp;·&nbsp;
+                    <a href="pravila-privatnosti.html">Pravila privatnosti</a>
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
