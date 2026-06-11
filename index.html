@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Alexandria-pocetna</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/global.css">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -62,10 +66,14 @@
                 <p>Sedam stoljeća znanja. Milijuni svitaka.<br>
                     Jedna vatra koja nije mogla uništiti ideju.</p>
             </div>
+
             <div class="hero-bottom">
-                <img class="thumb" src="slike/thumb2.jpg" alt>
-                <img class="thumb" src="slike/thumb3.jpg" alt>
-                <a class="vise-btn" href="./html/galerija.html">VIŠE SLIKA ›</a>
+                <img class="thumb" src="slike/Slika2.jpg" alt>
+                <div class="thumb-overlay-wrap">
+                    <img class="thumb" src="slike/Slika1.jpg" alt>
+                    <a class="thumb-overlay-btn"
+                        href="./html/galerija.html">VIŠE<br>SLIKA ›</a>
+                </div>
             </div>
         </section>
 
@@ -198,19 +206,21 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
 
-<footer class="text-center">
-    <div class="container">
-        <div class="mb-2">
-            <i class="bi bi-arrow-up-circle fs-4" style="color:var(--gold); cursor:pointer;" onclick="window.scrollTo({top:0,behavior:'smooth'})"></i>
-        </div>
-        <p class="footer-logo mb-1">© 2026 · Knjižnica Alexandria</p>
-        <p class="footer-links mb-0">
-            <a href="urednistvo.html">Uredništvo</a>
-            &nbsp;·&nbsp;
-            <a href="pravila-privatnosti.html">Pravila privatnosti</a>
-        </p>
-    </div>
-</footer>
+        <footer class="text-center">
+            <div class="container">
+                <div class="mb-2">
+                    <i class="bi bi-arrow-up-circle fs-4"
+                        style="color:var(--gold); cursor:pointer;"
+                        onclick="window.scrollTo({top:0,behavior:'smooth'})"></i>
+                </div>
+                <p class="footer-logo mb-1">© 2026 · Knjižnica Alexandria</p>
+                <p class="footer-links mb-0">
+                    <a href="urednistvo.html">Uredništvo</a>
+                    &nbsp;·&nbsp;
+                    <a href="pravila-privatnosti.html">Pravila privatnosti</a>
+                </p>
+            </div>
+        </footer>
     </body>
 
 </html>

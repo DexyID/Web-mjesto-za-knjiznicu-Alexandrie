@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija – Knjižnica Alexandria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../css/galerija.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../slike/logo.png" alt="Logo" class="navbar-logo">
+            ALEXANDRIA
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <i class="bi bi-list text-white fs-4"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Početna</a></li>
+                <li class="nav-item"><a class="nav-link" href="./katalog.html">Katalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="./novosti.html">Novosti</a></li>
+                <li class="nav-item"><a class="nav-link" href="./dogadjaji.html">Događaji</a></li>
+                <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
+            </ul>
+            <div class="dropdown ms-3 d-none d-lg-block">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                    <i class="bi bi-person-circle"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="./prijava.html">Prijava</a></li>
+                    <li><a class="dropdown-item" href="./prijava.html?tab=registracija">Registracija</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb novost-breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Početna</a></li>
+                    <li class="breadcrumb-item active">Galerija</li>
+                </ol>
+            </nav>
+
+<div class="container py-5">
+
+    <h1 class="page-title text-center mb-5">Galerija</h1>
+
+    <div class="row g-3">
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal1">
+                <img src="../slike/Slika1.jpg" alt="Čitaonica">
+                <div class="galerija-overlay">
+                    <i class="bi bi-zoom-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal2">
+                <img src="../slike/Slika2.jpg" alt="Zbirka svitaka">
+                <div class="galerija-overlay">
+                    <i class="bi bi-zoom-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal3">
+                <img src="../slike/Slika4.jpg" alt="Ulaz u knjižnicu">
+                <div class="galerija-overlay">
+                    <i class="bi bi-zoom-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal4">
+                <img src="../slike/Slika5.jpg" alt="Stare knjige">
+                <div class="galerija-overlay">
+                    <i class="bi bi-zoom-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal5">
+                <img src="../slike/Slika6.JPG" alt="Predavaonica">
+                <div class="galerija-overlay">
+                    <i class="bi bi-zoom-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="galerija-item" data-bs-toggle="modal" data-bs-target="#modal6">
+                <img src="../slike/Slika7.jpg" alt="Rukopisi
