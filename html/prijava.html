@@ -27,6 +27,8 @@
                         <li class="nav-item"><a class="nav-link" href="./novosti.html">Novosti</a></li>
                         <li class="nav-item"><a class="nav-link" href="./dogadaji.html">Radionice</a></li>
                         <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
+                        <li class="nav-item d-lg-none"><a class="nav-link active" href="./prijava.html" id="navPrijava">Prijava</a></li>
+                        <li class="nav-item d-lg-none"><a class="nav-link" href="./prijava.html?tab=registracija" id="navRegistracija">Registracija</a></li>
                     </ul>
                     <div class="dropdown ms-3 d-none d-lg-block">
                         <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
@@ -116,6 +118,8 @@
             const tabRegistracija = document.getElementById('tabRegistracija');
             const formPrijava = document.getElementById('formPrijava');
             const formRegistracija = document.getElementById('formRegistracija');
+            const navPrijava = document.getElementById('navPrijava');
+            const navRegistracija = document.getElementById('navRegistracija');
 
             tabPrijava.addEventListener('click', e => {
                 e.preventDefault();
@@ -123,6 +127,8 @@
                 tabRegistracija.classList.remove('active');
                 formPrijava.classList.remove('d-none');
                 formRegistracija.classList.add('d-none');
+                navPrijava.classList.add('active');
+                navRegistracija.classList.remove('active');
             });
 
             tabRegistracija.addEventListener('click', e => {
@@ -131,6 +137,8 @@
                 tabPrijava.classList.remove('active');
                 formRegistracija.classList.remove('d-none');
                 formPrijava.classList.add('d-none');
+                navRegistracija.classList.add('active');
+                navPrijava.classList.remove('active');
             });
 
             if (new URLSearchParams(window.location.search).get('tab') === 'registracija') {
